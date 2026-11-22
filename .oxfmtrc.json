@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 120,
+  "semi": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "arrowParens": "always",
+  "sortPackageJson": false,
+  "ignorePatterns": [
+    "target",
+    ".yarn",
+    "index.js",
+    "typst-node.wasi-browser.js",
+    "typst-node.wasi.cjs",
+    "wasi-worker-browser.mjs",
+    "wasi-worker.mjs",
+    ".yarnrc.yml"
+  ]
+}
